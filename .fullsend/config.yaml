@@ -13,4 +13,6 @@ runtime: dummy
 agents:
     - name: good-allowed
       source: harness/good-allowed.yaml
+    - name: no-allow
+      source: https://raw.githubusercontent.com/fullsend-ai-test/bt-01a1d587edb3719a8d1ce33ae9dcdf10-allow-62be5b5a-url-harness-host/main/harness/no-allow.yaml#sha256=2792c8336d0bd4bf216c2629275bfdbc353ac0a599a00013551a895e63423b88
 mint_url: https://bt-c924629f-bt-mint.fullsend-ai.workers.dev
